@@ -1,0 +1,14 @@
+.catalogue-container {
+  padding: 20px;
+}
+
+.catalogue-container h2 {
+  margin-bottom: 10px;
+}
+
+.toggle-container {
+  margin-bottom: 20px;
+  /* La rúbrica pide que los botones estén alineados a la izquierda debajo del título */
+  display: flex;
+  justify-content: flex-start;
+}

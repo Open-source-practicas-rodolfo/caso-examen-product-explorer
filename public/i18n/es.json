@@ -1,0 +1,19 @@
+{
+  "toolbar": {
+    "title": "Explorador de Productos"
+  },
+  "catalogue": {
+    "title": "Catálogo de Productos"
+  },
+  "product": {
+    "category": "Categoría",
+    "price": "Precio",
+    "rating": "Calificación",
+    "details": "Detalles del Producto",
+    "loading": "Cargando productos o no se encontraron resultados..."
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 Product Explorer. Todos los derechos reservados.",
+    "developer": "Desarrollado por u20241f733 Rodolfo Zavaleta"
+  }
+}

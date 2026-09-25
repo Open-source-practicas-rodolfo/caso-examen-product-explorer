@@ -1,0 +1,7 @@
+<div class="product-grid" role="list" aria-label="Product Catalogue List">
+  @for (product of products(); track product.id) {
+    <app-product-item [product]="product" role="listitem"></app-product-item>
+  } @empty {
+    <p role="status" aria-live="polite">{{ "product.loading" | translate }}</p>
+  }
+</div>

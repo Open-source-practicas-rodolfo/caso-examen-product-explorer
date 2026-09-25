@@ -1,0 +1,14 @@
+<div class="catalogue-container">
+  <h2>{{ 'catalogue.title' | translate }}</h2>
+
+  <!-- Toggle Buttons para Phone y Laptop -->
+  <div class="toggle-container">
+    <mat-button-toggle-group (change)="onCategoryChange($event.value)" value="phone">
+      <mat-button-toggle value="phone">Phone</mat-button-toggle>
+      <mat-button-toggle value="laptop">Laptop</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <!-- Le pasamos el Signal evaluado con () al componente hijo -->
+  <app-product-list [products]="products()"></app-product-list>
+</div>
